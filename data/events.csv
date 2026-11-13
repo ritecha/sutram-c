@@ -1,0 +1,8 @@
+timestamp,type,entity_id,source_doc,location
+2026-11-10 09:50,complaint,V1,complaint_01.txt,Delhi
+2026-11-10 10:02,payment,V1,bank_log.csv,Delhi
+2026-11-10 10:09,payment,V2,bank_log.csv,Pune
+2026-11-10 10:15,payment,V3,bank_log.csv,Jaipur
+2026-11-10 10:20,device_login,M1,device_log.csv,Delhi
+2026-11-10 10:30,transfer,M1,bank_log.csv,Delhi
+2026-11-10 11:05,withdrawal,ATM1,bank_log.csv,Noida
