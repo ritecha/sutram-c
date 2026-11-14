@@ -1,7 +1,21 @@
-txn_id,from_acct,to_acct,amount,timestamp,channel,location
-T1,V1,M1,15000,2026-11-10 10:02,UPI,Delhi
-T2,V2,M1,22000,2026-11-10 10:09,UPI,Pune
-T3,V3,M1,18000,2026-11-10 10:15,UPI,Jaipur
-T4,M1,X1,40000,2026-11-10 10:30,IMPS,Delhi
-T5,M1,X2,15000,2026-11-10 10:34,IMPS,Delhi
-T6,X1,ATM1,38000,2026-11-10 11:05,ATM,Noida
+txn_id,from_acct,to_acct,from_upi,to_upi,amount,timestamp,channel,location,latitude,longitude
+TXN_UPI_001,ACC_PRIYA_909,ACC_MULE_M1,priya@okaxis,sunilverma@oksbi,15000.0,2023-10-25 09:00:00,UPI,Noida Sec 62,28.6273,77.3725
+TXN_UPI_002,ACC_PRIYA_909,ACC_MULE_M1,priya@okaxis,sunilverma@oksbi,10000.0,2023-10-25 09:30:00,UPI,Noida Sec 62,28.6273,77.3725
+TXN_UPI_003,ACC_PRIYA_909,ACC_MULE_M1,priya@okaxis,sunilverma@oksbi,5000.0,2023-10-25 10:00:00,UPI,Noida Sec 62,28.6273,77.3725
+TXN_UPI_004,ACC_PRIYA_909,ACC_MULE_M1,priya@okaxis,sunilverma@oksbi,20000.0,2023-10-25 10:30:00,UPI,Noida Sec 62,28.6273,77.3725
+TXN_UPI_005,ACC_PRIYA_909,ACC_MULE_M1,priya@okaxis,sunilverma@oksbi,8000.0,2023-10-25 11:00:00,UPI,Noida Sec 62,28.6273,77.3725
+TXN_UPI_006,ACC_RAHUL_303,ACC_MULE_M1,rkumar@okhdfc,sunilverma@oksbi,12000.0,2023-10-25 11:15:00,UPI,Delhi Connaught Place,28.6304,77.2177
+TXN_UPI_007,ACC_RAHUL_303,ACC_MULE_M1,rkumar@okhdfc,sunilverma@oksbi,15000.0,2023-10-25 11:45:00,UPI,Delhi Connaught Place,28.6304,77.2177
+TXN_UPI_008,ACC_RAHUL_303,ACC_MULE_M1,rkumar@okhdfc,sunilverma@oksbi,9000.0,2023-10-25 12:15:00,UPI,Delhi Connaught Place,28.6304,77.2177
+TXN_UPI_009,ACC_RAHUL_303,ACC_MULE_M1,rkumar@okhdfc,sunilverma@oksbi,14000.0,2023-10-25 12:45:00,UPI,Delhi Connaught Place,28.6304,77.2177
+TXN_UPI_010,ACC_RAHUL_303,ACC_MULE_M1,rkumar@okhdfc,sunilverma@oksbi,5000.0,2023-10-25 13:15:00,UPI,Delhi Connaught Place,28.6304,77.2177
+TXN_UPI_011,ACC_AMIT_404,ACC_MULE_M1,amitsharma@okicici,sunilverma@oksbi,10000.0,2023-10-25 13:30:00,UPI,Gurugram Sec 45,28.4595,77.0266
+TXN_UPI_012,ACC_AMIT_404,ACC_MULE_M1,amitsharma@okicici,sunilverma@oksbi,25000.0,2023-10-25 14:00:00,UPI,Gurugram Sec 45,28.4595,77.0266
+TXN_UPI_013,ACC_AMIT_404,ACC_MULE_M1,amitsharma@okicici,sunilverma@oksbi,3000.0,2023-10-25 14:30:00,UPI,Gurugram Sec 45,28.4595,77.0266
+TXN_UPI_014,ACC_AMIT_404,ACC_MULE_M1,amitsharma@okicici,sunilverma@oksbi,12000.0,2023-10-25 15:00:00,UPI,Gurugram Sec 45,28.4595,77.0266
+TXN_UPI_015,ACC_AMIT_404,ACC_MULE_M1,amitsharma@okicici,sunilverma@oksbi,5000.0,2023-10-25 15:30:00,UPI,Gurugram Sec 45,28.4595,77.0266
+TXN_UPI_016,ACC_MULE_M1,ACC_ONWARD_A,sunilverma@oksbi,onwarda@okaxis,40000.0,2023-10-25 16:00:00,IMPS,Kolkata Salt Lake,22.5726,88.4331
+TXN_UPI_017,ACC_MULE_M1,ACC_ONWARD_B,sunilverma@oksbi,onwardb@okicici,45000.0,2023-10-25 16:30:00,NEFT,Kolkata Salt Lake,22.5726,88.4331
+TXN_UPI_018,ACC_MULE_M1,ACC_ONWARD_A,sunilverma@oksbi,onwarda@okaxis,35000.0,2023-10-25 17:00:00,IMPS,Kolkata Salt Lake,22.5726,88.4331
+TXN_UPI_019,ACC_MULE_M1,ACC_ONWARD_B,sunilverma@oksbi,onwardb@okicici,30000.0,2023-10-25 17:30:00,NEFT,Kolkata Salt Lake,22.5726,88.4331
+TXN_UPI_020,ACC_MULE_M1,ATM_CASH_OUT,sunilverma@oksbi,ATM_CASH_OUT,15000.0,2023-10-25 18:00:00,ATM_WITHDRAWAL,Kolkata ATM Axis,22.5735,88.435

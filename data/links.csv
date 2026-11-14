@@ -1,0 +1,8 @@
+source_entity_id,target_entity_id,relationship_type,strength_score
+E01,E04,Victim_To_Mule,0.9
+E02,E04,Victim_To_Mule,0.85
+E03,E04,Victim_To_Mule,0.92
+E04,E05,Mule_To_Onward,0.98
+E04,E06,Mule_To_Onward,0.95
+E04,E08,Mule_To_Cashout,0.99
+E07,E04,Recruiter_To_Mule,0.8

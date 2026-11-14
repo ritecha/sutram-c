@@ -1,9 +1,11 @@
-timestamp,type,entity_id,source_doc,location
-2026-11-10 09:50,complaint,V1,complaint_01.txt,Delhi
-2026-11-10 10:02,payment,V1,bank_log.csv,Delhi
-2026-11-10 10:09,payment,V2,bank_log.csv,Pune
-2026-11-10 10:15,payment,V3,bank_log.csv,Jaipur
-2026-11-10 10:20,device_login,M1,device_log.csv,Delhi
-2026-11-10 10:30,transfer,M1,bank_log.csv,Delhi
-2026-11-10 11:05,withdrawal,ATM1,bank_log.csv,Noida
-2026-11-10 10:28,device_login,M1,device_log.csv,Pune
+event_id,timestamp,event_type,entity_associated,true_entity_id,details,shared_device_id,ip_address,latitude,longitude
+EVT_001,2023-10-24 15:30:00,Chat Message,Job Recruiter,E07,Welcome to Earn Daily Tasks WhatsApp Group. Easy investment returns!,,,,
+EVT_002,2023-10-24 15:35:00,Chat Message,R. Kumar,E02,Joined via invite link.,,,,
+EVT_003,2023-10-24 15:40:00,Chat Message,Priya P.,E01,How do I begin the daily task?,,,,
+EVT_004,2023-10-25 08:30:00,Device Login,S. Verma,E04,Logged into banking console using Android Device (DeviceID: DEV-SH99),DEV-SH99,103.241.12.110,28.6273,77.3725
+EVT_005,2023-10-25 08:45:00,IP Registration,S. Verma,E04,"IP assigned: 103.241.12.110 (Noida, India)",DEV-SH99,103.241.12.110,28.6273,77.3725
+EVT_006,2023-10-25 15:45:00,Device Login,S. Verma,E04,Logged into banking console using Android Device (DeviceID: DEV-SH99),DEV-SH99,103.241.12.110,22.5726,88.4331
+EVT_007,2023-10-25 15:50:00,IP Registration,S. Verma,E04,"IP assigned: 103.241.12.110 (Kolkata, India - Possible Suspicious Fast Travel)",DEV-SH99,103.241.12.110,22.5726,88.4331
+EVT_008,2023-10-25 17:55:00,ATM Proximity CCTV,Unidentified Subject,E04,Activity: Cash Withdrawal detected at Axis ATM kiosk (Confidence: 0.94),,,22.5735,88.435
+EVT_009,2023-10-25 18:00:00,ATM Access Log,S. Verma,E04,ATM Card withdrawal of INR 15000,,,22.5735,88.435
+EVT_010,2023-10-25 18:10:00,Network Alert,ACC_MULE_M1,E04,Rapid multi-account redirection flag triggered,,,,

@@ -1,0 +1,9 @@
+entity_id,name,messy_aliases,role,associated_upi,account_id
+E01,Priya Patel,Priya P.,Victim,priya@okaxis,ACC_PRIYA_909
+E02,Rahul Kumar,R. Kumar,Victim,rkumar@okhdfc,ACC_RAHUL_303
+E03,Amit Sharma,Amit S.,Victim,amitsharma@okicici,ACC_AMIT_404
+E04,Sunil Verma,S. Verma,Mule (M1),sunilverma@oksbi,ACC_MULE_M1
+E05,Onward Acct A,Onward_A,Onward Layer,onwarda@okaxis,ACC_ONWARD_A
+E06,Onward Acct B,Onward_B,Onward Layer,onwardb@okicici,ACC_ONWARD_B
+E07,Recruiter Target,Job Recruiter,Fraud Suspect,easyjobs@oksbi,ACC_RECRUIT_808
+E08,ATM Cash Out Point,ATM_CASH_OUT,Cash-out Destination,N/A,ATM_CASH_OUT
